@@ -37,6 +37,6 @@ def pixel_to_sound(image_path, output_dir, num_sounds=10, duration_ms=200):
     print(f"Generated {num_sounds} sound files in '{output_dir}'.")
 
 
-image_path = "Image-Sonification/sherry-christian-8Myh76_3M2U-unsplash.jpg"  
+image_path = "sherry-christian-8Myh76_3M2U-unsplash.jpg"  
 output_dir = "output_sounds"
 pixel_to_sound(image_path, output_dir, num_sounds=10)
